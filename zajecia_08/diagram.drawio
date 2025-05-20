@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.5">
+  <diagram name="Page-1" id="Digu82agTz6KR3DEOhEs">
+    <mxGraphModel dx="2009" dy="805" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-1" target="fVOZz8hpFEwsd9qPrHL2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-1" value="App Events" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-83" y="14" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-3" target="fVOZz8hpFEwsd9qPrHL2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-3" value="PUB/SUB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="14" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-5" target="fVOZz8hpFEwsd9qPrHL2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-5" value="Dataflow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="14" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-6" target="fVOZz8hpFEwsd9qPrHL2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-6" value="BigQuery Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="14" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-7" target="fVOZz8hpFEwsd9qPrHL2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-7" target="fVOZz8hpFEwsd9qPrHL2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-7" target="fVOZz8hpFEwsd9qPrHL2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-7" value="Dataproc&lt;br&gt;( Spark jobs )" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="114" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-8" target="fVOZz8hpFEwsd9qPrHL2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-8" value="ML Services&lt;br&gt;( REST&lt;br&gt;&amp;nbsp;on Cloud Run )" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="114" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-14" value="Dataproc&lt;br&gt;( Spark jobs )" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657" y="114" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-15" value="Dataproc&lt;br&gt;( Spark jobs )" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657" y="14" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-16" value="Dataproc&lt;br&gt;( Spark jobs )" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657" y="214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fVOZz8hpFEwsd9qPrHL2-7" target="fVOZz8hpFEwsd9qPrHL2-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="517" y="142" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fVOZz8hpFEwsd9qPrHL2-20" value="&lt;b&gt;Kacper Książek&lt;br&gt;IiAD 22/23&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-83" y="217" width="259" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

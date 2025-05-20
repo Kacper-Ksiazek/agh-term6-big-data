@@ -1,0 +1,5 @@
+1. Use configuration files and environmental variables or dedicated services related to secrets.
+2. Validate against schema and also (in terms of ML) - check for data, schema and concept drifts.
+3. Mechanism responsible for ignoring null values during transformations.
+4. Parametrize every method/function.
+5. Take advantage of built-in handlers like reading options.
